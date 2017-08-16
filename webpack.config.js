@@ -25,8 +25,12 @@ module.exports = {
         loader: 'json'
       },
       {
-        test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader?url=false',
+          'sass-loader'
+        ]
       },
       {
   test: /\.svg$/,

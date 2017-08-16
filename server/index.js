@@ -3,7 +3,7 @@ const path = require('path');
 
 const app = express();
 
-const PORT = 3443;
+const PORT = process.env.PORT || 3443;
 app.use(express.static(path.join(__dirname, '..', 'public')))
   app.use((req, res, next) =>
     path.extname(req.path).length > 0 ? res.status(404).send('Not found') : next())
