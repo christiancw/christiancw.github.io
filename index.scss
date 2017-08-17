@@ -3,41 +3,12 @@ body {
   background-color: transparent;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-[class*="col-"] {
-    float: left;
-    border: 1px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .mainContainer {
   background-color: transparent;
-  padding: 5px 0px;
 }
 
 .topFrame {
-  background-color: #B7B0A8;
+  background-color: #bebbff;
   text-align: center;
   height: 100vh;
 }
@@ -49,26 +20,45 @@ body {
 }
 
 .bioGraf {
-  font-family: Georgia,"Times New Roman",Times,serif;;
+  font-family: 'Arimo', sans-serif;
   font-size: 16px;
   border-bottom: 1px solid gray;
   padding: 10%;
   margin: auto;
+  background-color: #f1edff;
+}
+
+.projects-container {
+  display: flex;
+  background-color: #bebbff;
+}
+
+.project-box {
+  border-radius: 10%;
+  border: solid gray;
+  margin: 3%;
+  padding: 1%;
+  text-align: center;
+  background-color: #ffe8b3;
+}
+
+.project-box a {
+  border: solid gray 0.5px;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+.project-box h4 {
+  margin: 2%;
+}
+
+.project-icon {
+  margin-left: 5px;
 }
 
 p {
   line-height: 35px;
-}
-
-.projects-section {
-  padding: 70px;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-}
-
-.projectBox {
-  display: inline-block;
 }
 
 a {
@@ -76,11 +66,34 @@ a {
     color: inherit;
 }
 
-ul {
-        list-style: none;
-        text-align: left;
+h4 {
+  margin: auto;
+  padding: 2%;
+  text-align: center;
 }
 
-.paperBox {
+ul {
+    list-style: circle;
+    text-align: left;
+    margin-top: 2%;
+    margin-right: 3%;
+    padding-right: 2%;
+}
 
+.collaborators a {
+  border: none;
+  margin: auto;
+  padding: auto;
+}
+
+li {
+  padding: 3%;
+}
+
+.contact-bar {
+  text-align: center;
+}
+
+.button-icon {
+  margin: 10px;
 }
