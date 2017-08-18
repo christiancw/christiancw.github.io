@@ -2,7 +2,6 @@ import  React, { Component } from 'react';
 import AboutMe from './AboutMe';
 import RecentWork from './RecentWork';
 import Contact from './Contact';
-import FlatButton from 'material-ui/FlatButton';
 
 export default class AppComponent extends Component {
 
@@ -12,7 +11,7 @@ export default class AppComponent extends Component {
         <div className="topFrame">
           <div className="topText">
             <h2>Christian Wentling</h2>
-            <FlatButton label="About" href="#aboutMeGraf" /> | <FlatButton label="Projects" href="#projects" />
+            <a href="#aboutMeGraf">About</a> | <a href="#projects">Projects</a>
           </div>
         </div>
           <AboutMe />
