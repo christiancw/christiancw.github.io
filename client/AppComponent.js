@@ -11,7 +11,9 @@ export default class AppComponent extends Component {
         <div className="topFrame">
           <div className="topText">
             <h2>Christian Wentling</h2>
-            <a href="#aboutMeGraf">About</a> | <a href="#projects">Projects</a>
+            <a href="#about">About | </a>
+            <a href="#projects">Projects | </a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
           <AboutMe />

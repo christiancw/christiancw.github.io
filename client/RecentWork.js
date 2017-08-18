@@ -9,20 +9,20 @@ export default function RecentWork (props){
     <div id="projects" className="projects-container">
       <div className="project-box">
         <h4>I (AR)t NY</h4>
-        <a href="https://github.com/jhoscar1/capstone">
-          Code
-          <Mark className="project-icon" />
-        </a>
-        <a href="https://www.youtube.com/watch?v=Cal59NL6_0c&t=105s">
+          <a href="https://github.com/jhoscar1/capstone" className="project-icon">
+            Code
+            <Mark />
+          </a>
+        <a href="https://www.youtube.com/watch?v=Cal59NL6_0c&t=105s" className="project-icon">
           Play Demo
-          <Triangle className="project-icon" />
+          <Triangle />
         </a>
         <ul>
           <li>Mobile AR application that directs users to nearby public art installations and cultural landmarks</li>
           <li>Firebase backend and React Native front-end (runs on Android and iOS devices)</li>
           <li>Incorporates native features including the camera, GPS, and gyroscope</li>
         </ul>
-        <div className="collaborators">With: <a href="https://github.com/dweste01">Danielle</a>,<a href="https://github.com/phoyt1">Pat</a>, and <a href="https://github.com/jhoscar1">Jason</a></div>
+        <div className="collaborators">Collaborators: <a href="https://github.com/dweste01">Danielle</a>,<a href="https://github.com/phoyt1">Pat</a>,<a href="https://github.com/jhoscar1">Jason</a></div>
       </div>
       <div className="project-box">
         <h4>FeelTunes</h4>
@@ -51,7 +51,7 @@ export default function RecentWork (props){
           <li>Node, Express, and Postgres backend; React-Redux front-end</li>
           <li>Includes product review functionality, user authentication, persistent carts using local storage</li>
         </ul>
-        <div className="collaborators">With: <a href="https://github.com/ptrkkim">Patrick</a>, <a href="https://github.com/Decoyono">Matt</a>, and <a href="https://github.com/jacobkjhan">Jacob</a></div>
+        <div className="collaborators">Collaborators: <a href="https://github.com/ptrkkim">Patrick</a>, <a href="https://github.com/Decoyono">Matt</a>, <a href="https://github.com/jacobkjhan">Jacob</a></div>
       </div>
     </div>
   )
