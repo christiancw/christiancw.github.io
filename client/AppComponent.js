@@ -9,7 +9,7 @@ export default class AppComponent extends Component {
     return (
       <div className="mainContainer">
         <div className="topFrame">
-          <div className="topText">
+          <div className="topText wow fadeInDown">
             <h2>Christian Wentling</h2>
             <a href="#about">About | </a>
             <a href="#projects">Projects | </a>

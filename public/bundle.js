@@ -24687,7 +24687,7 @@ var AppComponent = function (_Component) {
           { className: 'topFrame' },
           _react2.default.createElement(
             'div',
-            { className: 'topText' },
+            { className: 'topText wow fadeInDown' },
             _react2.default.createElement(
               'h2',
               null,
@@ -24743,7 +24743,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function AboutMe(props) {
   return _react2.default.createElement(
     "div",
-    { id: "about", className: "bioGraf" },
+    { id: "about", className: "bioGraf wow fadeInRight" },
     _react2.default.createElement(
       "p",
       null,
@@ -24804,7 +24804,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function RecentWork(props) {
   return _react2.default.createElement(
     'div',
-    { id: 'projects', className: 'projects-container' },
+    { id: 'projects', className: 'projects-container wow fadeInLeft' },
     _react2.default.createElement(
       'div',
       { className: 'project-box' },
@@ -29538,7 +29538,7 @@ exports = module.exports = __webpack_require__(347)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background-color: #bebbff;\n  background-size: cover; }\n\n.mainContainer {\n  background-color: transparent;\n  width: 100%;\n  background-size: cover; }\n\n.topFrame {\n  background-color: #bebbff;\n  text-align: center;\n  height: 100vh; }\n\n.topText {\n  position: relative;\n  top: 50%;\n  color: white;\n  font-family: 'Armata', sans-serif; }\n\n.bioGraf {\n  font-family: 'Arimo', sans-serif;\n  font-size: 16px;\n  border-bottom: 1px solid gray;\n  padding: 10%;\n  margin: auto;\n  background-color: #f1edff; }\n\n.projects-container {\n  display: flex;\n  background-color: #bebbff;\n  width: 100%; }\n\n.project-box {\n  border-radius: 10%;\n  border: solid gray;\n  margin: 3%;\n  padding: 1%;\n  text-align: center;\n  background-color: white;\n  font-family: 'Armata', sans-serif; }\n\n.project-box a {\n  border: solid gray 0.5px;\n  margin: 2%;\n  padding: 1%;\n  border-radius: 5%; }\n  .project-box a :hover {\n    background-color: #f1edff; }\n\n.project-box h4 {\n  margin: 2%;\n  border-bottom: 1px solid grey; }\n\n.project-icon {\n  margin-left: 5px; }\n  .project-icon :hover {\n    background-color: #f1edff; }\n\np {\n  line-height: 35px; }\n\na {\n  text-decoration: none;\n  color: inherit; }\n\nh4 {\n  margin: auto;\n  padding: 2%;\n  text-align: center; }\n\nul {\n  list-style: circle;\n  text-align: left;\n  margin-top: 2%;\n  margin-right: 3%;\n  padding-right: 2%;\n  font-family: 'Raleway', sans-serif; }\n\n.collaborators a {\n  border: none;\n  margin: auto;\n  padding: auto; }\n\n.collaborators {\n  font-family: 'Didact Gothic', sans-serif; }\n\nli {\n  padding: 3%; }\n\n.contact-bar {\n  text-align: center;\n  background-color: transparent;\n  width: 100%; }\n\n.button-icon {\n  margin: 10px; }\n", ""]);
+exports.push([module.i, "body {\n  background-color: #bebbff;\n  background-size: cover; }\n\n.mainContainer {\n  background-color: transparent;\n  width: 100%;\n  background-size: cover; }\n\n.topFrame {\n  background-color: #bebbff;\n  text-align: center;\n  height: 100vh; }\n\n.topText {\n  position: relative;\n  top: 50%;\n  color: white;\n  font-family: 'Armata', sans-serif; }\n\n.bioGraf {\n  font-family: 'Arimo', sans-serif;\n  font-size: 16px;\n  border-bottom: 1px solid gray;\n  padding: 10%;\n  margin: auto;\n  background-color: #f1edff; }\n\n.projects-container {\n  display: flex;\n  background-color: #bebbff;\n  width: 100%; }\n\n.project-box {\n  border-radius: 10%;\n  border: solid gray;\n  margin: 3%;\n  padding: 1%;\n  text-align: center;\n  background-color: white;\n  font-family: 'Armata', sans-serif; }\n\n.wow {\n  visibility: hidden; }\n\n.project-box a {\n  border: solid gray 0.5px;\n  margin: 2%;\n  padding: 1%;\n  border-radius: 5%; }\n  .project-box a :hover {\n    background-color: #f1edff; }\n\n.project-box h4 {\n  margin: 2%;\n  border-bottom: 1px solid grey; }\n\n.project-icon {\n  margin-left: 5px; }\n  .project-icon :hover {\n    background-color: #f1edff; }\n\np {\n  line-height: 35px; }\n\na {\n  text-decoration: none;\n  color: inherit; }\n\nh4 {\n  margin: auto;\n  padding: 2%;\n  text-align: center; }\n\nul {\n  list-style: circle;\n  text-align: left;\n  margin-top: 2%;\n  margin-right: 3%;\n  padding-right: 2%;\n  font-family: 'Raleway', sans-serif; }\n\n.collaborators a {\n  border: none;\n  margin: auto;\n  padding: auto; }\n\n.collaborators {\n  font-family: 'Didact Gothic', sans-serif; }\n\nli {\n  padding: 3%; }\n\n.contact-bar {\n  text-align: center;\n  background-color: transparent;\n  width: 100%; }\n\n.button-icon {\n  margin: 10px; }\n", ""]);
 
 // exports
 

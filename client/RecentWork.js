@@ -6,7 +6,7 @@ import Globe from '../globe.svg';
 
 export default function RecentWork (props){
   return (
-    <div id="projects" className="projects-container">
+    <div id="projects" className="projects-container wow fadeInLeft">
       <div className="project-box">
         <h4>I (AR)t NY</h4>
           <a href="https://github.com/jhoscar1/capstone" className="project-icon">
