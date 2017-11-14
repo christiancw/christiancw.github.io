@@ -1,54 +1,107 @@
 body {
-  background-color: #bebbff;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainContainer {
-  background-color: transparent;
   width: 100%;
   background-size: cover;
 }
 
 .topFrame {
-  background-color: #bebbff;
-  text-align: center;
-  height: 100vh;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 500px;
+  background-image: url("StockSnap_TF8W4HF1BI.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
 }
 
 .topText {
-  position: relative;
-  top: 50%;
   color: white;
   font-family: 'Armata', sans-serif;
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding: 15px;
+}
+
+.skills-list {
+  margin: 25px 10px;
+  border-bottom: 2px solid black;
+  padding-bottom: 15px;
+}
+
+.skill-col {
+  padding-left: 3%;
+}
+
+.middle-col {
+  border-right: 1px dashed black;
+  border-left: 1px dashed black;
+}
+
+.list-item {
+  padding: 2px;
+  margin: 2px;
+}
+
+.career-summary-container {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px dotted gray;
+  h4 {
+    height: 15%;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: stretch;
+    li {
+      margin: 5px;
+      font-size: 14px;
+    }
+  }
 }
 
 .bioGraf {
   font-family: 'Arimo', sans-serif;
-  font-size: 16px;
-  border-bottom: 1px solid gray;
-  padding: 10%;
-  margin: auto;
-  background-color: #f1edff;
+  font-size: 14px;
 }
 
 .projects-container {
-  display: flex;
-  background-color: #bebbff;
-  width: 100%;
+  background-image: url("StockSnap_TF8W4HF1BI.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100% 800px;
+  background-repeat: no-repeat;
 }
 
 .project-box {
-  border-radius: 10%;
+  border-radius: 3px;
   border: solid gray;
-  margin: 3%;
+  margin: 1%;
   padding: 1%;
   text-align: center;
   background-color: white;
   font-family: 'Armata', sans-serif;
-}
-
-.wow {
-  visibility: hidden;
+  ul {
+      list-style: circle;
+      text-align: left;
+      margin-top: 2%;
+      margin-right: 3%;
+      padding-right: 2%;
+      font-family: 'Raleway', sans-serif;
+  }
+  li {
+    padding: 3%;
+  }
 }
 
 .project-box a {
@@ -73,30 +126,6 @@ body {
   }
 }
 
-p {
-  line-height: 35px;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-h4 {
-  margin: auto;
-  padding: 2%;
-  text-align: center;
-}
-
-ul {
-    list-style: circle;
-    text-align: left;
-    margin-top: 2%;
-    margin-right: 3%;
-    padding-right: 2%;
-    font-family: 'Raleway', sans-serif;
-}
-
 .collaborators a {
   border: none;
   margin: auto;
@@ -105,10 +134,6 @@ ul {
 
 .collaborators {
   font-family: 'Didact Gothic', sans-serif;
-}
-
-li {
-  padding: 3%;
 }
 
 .contact-bar {

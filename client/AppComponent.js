@@ -1,24 +1,28 @@
 import  React, { Component } from 'react';
-import AboutMe from './AboutMe';
+import Narrative from './Narrative';
 import RecentWork from './RecentWork';
 import Contact from './Contact';
+import Timeline from './Timeline';
+import Skills from './Skills';
+import Navbar from './Navbar';
+import Headline from './Headline';
 
 export default class AppComponent extends Component {
 
-  render () {
+  render (){
     return (
       <div className="mainContainer">
-        <div className="topFrame">
-          <div className="topText wow fadeInDown">
-            <h2>Christian Wentling</h2>
-            <a href="#about">About | </a>
-            <a href="#projects">Projects | </a>
-            <a href="#contact">Contact</a>
+        <Navbar />
+        <Headline />
+        <Skills />
+        <div className="about container-fluid">
+          <div className="row">
+            <Timeline />
+            <Narrative />
           </div>
         </div>
-          <AboutMe />
-          <RecentWork />
-          <Contact />
+        <RecentWork />
+        <Contact />
       </div>
     );
   }
